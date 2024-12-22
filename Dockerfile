@@ -13,7 +13,7 @@ RUN useradd -m -s /bin/bash node
 USER node
 
 # Clone the repository
-RUN git clone https://github.com/Toxic1239/Queen-RiasV3.git /home/node/blue
+RUN git clone https://github.com/Mclaren-Ex/Queen-RiasV3.git /home/node/blue
 
 # Set the working directory
 WORKDIR /home/node/blue
